@@ -1,5 +1,5 @@
 # GiaKhang_Ho_KingYin_Sham_MusicMixer
-![Orbitz](images/Orbitz%20Bottle_pic_5.png)
+![Panda got Talent](images/panda-got-talent-800.png)
 Welcome to the Panda Got Talent!
 This is the repo for the Music Mixer.
 Enjoy the show ! 
