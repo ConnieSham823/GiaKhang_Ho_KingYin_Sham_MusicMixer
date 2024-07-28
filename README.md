@@ -1,8 +1,13 @@
 # GiaKhang_Ho_KingYin_Sham_MusicMixer
+
 ![Panda got Talent](images/panda-got-talent-800.png)
+
 Welcome to the Panda Got Talent!
+
 This is the repo for the Music Mixer.
-Enjoy the show ! 
+
+Enjoy the show!
+
 By: GiaKhang Ho (Eric) & KingYin Sham (Connie)
 
 ## Installation
