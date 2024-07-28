@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <title>Panda Got Talent</title>
+</head>
+<body>
+    <h1 class="hidden">Canada Panda Got Talent</h1>
+    <header class="grid-con" id="main-header">
+        <div id="logo" class="box col-span-full l-col-span-full">
+            <img src="images/panda-logo-300.png" alt="Canada Panda Got Talent logo" draggable="false">
+        </div>
+    </header>
+
+    <main class="grid-con">
+        <section class="box col-span-full t-col-span-full l-col-span-full" id="main-body">
+            <h2>Welcome to Panda Got Talent!</h2>
+            <p>Choose 3 contestants to perform on stage. Once selected, press <span>PLAY</span> to enjoy their performance!</p>
+
+            <section id="button-container-t" class="col-span-full t-col-span-full l-col-span-full">
+                <h3 class="hidden">Like & Dislike</h3>
+                <div id="like">
+                    <img src="images/button-like.png" alt="like button" draggable="false">
+                    <audio id="likeSound" src="sounds/Like.mp3"></audio>
+                </div>
+                <div id="dislike">
+                    <img src="images/button-dislike.png" alt="dislike button" draggable="false">
+                    <audio id="dislikeSound" src="sounds/Dislike.mp3"></audio>
+                </div>
+            </section>
+
+            <section id="game-zone" class="grid-con">
+                <h2 class="hidden">Music Zone</h2>
+                <section id="drop-zone" class="box col-span-full t-col-span-full l-col-span-full">
+                    <h3 class="hidden">Performance Stage</h3>
+                    <div class="drop-container">
+                        <div class="drop-zone" id="drop-1"></div>
+                        <img src="images/spotlight.png" alt="spotlight" class="spotlight">
+                        <h4 class="performer-text">I'm Great !</h4>
+                    </div>
+                    <div class="drop-container">
+                        <div class="drop-zone" id="drop-2"></div>
+                        <img src="images/spotlight.png" alt="spotlight" class="spotlight">
+                        <h4 class="performer-text">I'm Amazing !</h4>
+                    </div>
+                    <div class="drop-container">
+                        <div class="drop-zone" id="drop-3"></div>
+                        <img src="images/spotlight.png" alt="spotlight" class="spotlight">
+                        <h4 class="performer-text">I'm Fantastic !</h4>
+                    </div>
+                </section>
+
+                <section id="button-container-b" class="box col-span-full t-col-span-full l-col-span-full">
+                    <h2 class="hidden">Control Buttons</h2>
+                        <div id="plus">
+                            <img src="images/button-plus.png" alt="plus button" draggable="false">
+                        </div>
+                        <div id="sound">
+                            <img src="images/button-sound.png" alt="sound button" draggable="false">
+                        </div>
+                        <div id="deduce">
+                            <img src="images/button-deduce.png" alt="deduce button" draggable="false">
+                        </div>
+                        <div id="resetBut">
+                            <img src="images/button-reset.png" alt="reset button" draggable="false">
+                        </div>
+                        <div id="play">
+                            <img src="images/button-play.png" alt="play button" draggable="false">
+                        </div>
+                        <div id="pause">
+                            <img src="images/button-pause.png" alt="pause button" draggable="false">
+                        </div>
+                        <div id="stop">
+                            <img src="images/button-stop.png" alt="stop button" draggable="false">
+                        </div>
+                </section>
+            </section>
+        </section>
+
+        <section id="panda" class="box col-span-full t-col-span-full l-col-span-full">
+            <h2 class="hidden">Pandas Zone</h2>
+            <div id="drum" draggable="true">
+                <img src="images/Panda-Drum.svg" alt="panda drum" data-sound="drum">
+            </div>
+            <div id="piano" draggable="true">
+                <img src="images/Panda-Piano.svg" alt="panda piano" data-sound="piano">
+            </div>
+            <div id="saxophone" draggable="true">
+                <img src="images/Panda-Saxophone.svg" alt="panda saxophone" data-sound="saxophone">
+            </div>
+            <div id="trumpet" draggable="true">
+                <img src="images/Panda-Trumpet.svg" alt="panda trumpet" data-sound="trumpet">
+            </div>
+            <div id="ukulele" draggable="true">
+                <img src="images/Panda-Ukulele.svg" alt="panda ukulele" data-sound="ukulele">
+            </div>
+            <div id="violin" draggable="true">
+                <img src="images/Panda-Violin.svg" alt="panda violin" data-sound="violin">
+            </div>
+        </section>
+    </main>
+
+    <footer class="grid-con">
+        <h2 class="hidden">Footer Privacy Policy</h2>       
+        <div id="footer" class="col-span-full t-col-span-full l-col-span-full">
+            <p id="price-policy">©2024 GHK & SKY. All Rights Reserved. <br> Privacy Policy</p>
+        </div>
+    </footer>
+   
+    <script src="js/main.js"></script>
+</body>
+</html>
