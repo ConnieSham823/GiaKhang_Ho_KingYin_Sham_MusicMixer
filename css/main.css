@@ -79,14 +79,14 @@ body {
   
     #drop-zone {
       display: flex;
-      justify-content: space-between; /* Adjust as needed */
+      justify-content: space-between;
       margin-left: 15px;
       margin-right: 15px;
     }
   
     .drop-container {
-      flex: 1; /* This will make each drop-container take equal space */
-      margin: 0 10px; /* Optional: Add spacing between containers */
+      flex: 1; 
+      margin: 0 10px; 
     }
   
     .drop-container h4 {
